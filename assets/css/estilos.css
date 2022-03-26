@@ -1,0 +1,112 @@
+
+body, html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor-principal {
+    background: rgb(0, 0, 0);
+    border: solid 1px white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedor-secundario {
+    background: rgb(0, 0, 0);
+    width: 1280px;
+  }
+
+  #titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white; 
+    
+  }
+
+  .descripcion{
+    text-align: justify; 
+  }
+
+  #cuerpo-parrafo{
+      padding-top: 75px;
+      padding-bottom: 75px;
+      padding-left: 150px;
+      padding-right: 100px;
+      width: 475px;
+      height: 197px;
+      float: left;;
+  }
+
+  /* #imagen01{
+      float: right;
+  } */
+
+  #img01{
+      padding-top: 45px;
+      height: 237px;
+      width: 399px;
+      padding-right: 150px;
+  }
+
+  #cuerpo2{
+      padding-bottom: 45px;
+  }
+
+  #cuerpo3{
+    padding-top: 10px;
+    background-color: #1E1A13;
+    height: 348px;
+  }
+
+  .imgCuadros{
+    width: 316;  
+    height: 202px;
+      
+  }
+
+  .padre {
+    /* IMPORTANTE */
+    text-align: center;
+    padding-top: 33px;
+  }
+  
+  .hijo {
+    padding: 1px;
+    margin: 5px;
+    display: inline-block;
+    width: 360px; 
+  }
+
+  .otro{
+    top: 1333px;
+    left: 326px;
+    width: 157px;
+    height: 137px;
+    
+    opacity: 1;
+  }
+
+  #contenedorPie{
+     margin-top: ;
+    background-color: #1E1A13;
+    height: 102px;    
+  }
+  #link{
+      padding-top: 40px;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;;
+  }
